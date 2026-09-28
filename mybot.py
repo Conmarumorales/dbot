@@ -5,8 +5,9 @@ import os
 
 # Load environment variables from .env file
 load_dotenv()
-OPENAI_KEY = os.getenv('OPENAI_KEY')
-DISCORD_TOKEN = os.getenv('TOKEN')
+OPENAI_KEY = os.getenv('OPENAI_KEY' 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
+)
+DISCORD_TOKEN = os.getenv('TOKEN' MTU1MzkyMzM4NzM5MzQ0MTgyMg.GkFxC5.4q85cbMfd9xOGBrFVBTVJmDnf_uSKwnseM4KJE)
 
 # Initialize the OpenAI client
 openai_client = OpenAI(api_key=OPENAI_KEY)
@@ -17,7 +18,7 @@ def call_openai(question):
         messages=[
              {
                  "role": "user",
-                 "content": f"Respond like a pirate to the following question:  {question}",
+                 "content": f"Respond like a pirate to the following question:  {$hello}",
             },
         ]
     )
